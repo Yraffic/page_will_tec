@@ -1,0 +1,57 @@
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.forms{
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-top: 1rem; 
+}
+
+.forms input, textarea, select{
+    height: 2rem;
+    width: 100%;
+    all: unset;
+
+    padding: 0.7rem;
+    text-align: start;
+
+    border: 0.06rem solid rgb(97, 115, 129);
+    color: white;
+    border-radius: 1rem; 
+}
+select{
+    text-align: center;
+    width: 90%;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.146);
+}
+
+.forms select:focus{
+    border: 0.06rem solid rgb(250, 250, 255);;
+}
+
+.forms input:focus{
+    border: 0.06rem solid rgb(250, 250, 255);;
+}
+
+.forms textarea:focus{
+    border: 0.06rem solid rgb(250, 250, 255);;
+}
+.btn-forms{
+    all: unset;
+    
+    background-color: orangered;
+
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+
+    cursor: pointer;
+}
+
+.btn-forms:hover{
+    background-color: rgba(255, 166, 0, 0.574);
+}
+
