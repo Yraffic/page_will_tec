@@ -15,7 +15,7 @@ export const Form = () => {
         const description = data.description.replace(' ', '%20')
 
         const text =
-            `Nome:%20${data.name}%20Marca:%20${data.phone}%20Problema:%20%${description}`
+            `Nome:%20${data.name}%20Marca:%20${data.phone}%20Problema:%20${description}`
 
         const link =
             `https://wa.me/5598984171523?text=${text}`
