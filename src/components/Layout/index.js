@@ -1,4 +1,5 @@
 import { Header } from '../Header'
+import {Footer} from '../Footer'
 import './style.css'
 
 export const Layout = ({children})=>{
@@ -6,6 +7,7 @@ export const Layout = ({children})=>{
         <div className='conteiner_layout'>
            <Header />
             {children}
+            <Footer />
         </div>
     )
 }

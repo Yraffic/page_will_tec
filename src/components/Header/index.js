@@ -1,15 +1,16 @@
 import './style.css'
-import {Card} from '../Card'
-import { Form } from '../Form'
+import { motion } from 'framer-motion'
 
 export const Header = () => {
     return (
         <header className='conteiner_header'>
-            <h1>Assistência técnica especializada em celulares</h1>
-            <div className='conteiner_cards'>
-                <Form />
-                <Card />
-            </div>
+            <motion.h1 
+                initial={{x: 300}}
+                animate={{x:0}}
+                transition={{duration: 0.8}}
+            >
+                Assistência técnica especializada em celulares
+            </motion.h1>
         </header>
     )
 }

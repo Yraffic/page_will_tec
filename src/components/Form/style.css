@@ -17,8 +17,7 @@
     padding: 0.7rem;
     text-align: start;
 
-    border: 0.06rem solid rgb(97, 115, 129);
-    color: white;
+    border: 0.06rem solid rgb(3, 132, 230);
     border-radius: 1rem; 
 }
 select{
@@ -27,17 +26,21 @@ select{
     color: rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0.146);
 }
-
+option{
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(203, 187, 187);
+}
 .forms select:focus{
-    border: 0.06rem solid rgb(250, 250, 255);;
+    border: 0.06rem solid orangered;;
 }
 
 .forms input:focus{
-    border: 0.06rem solid rgb(250, 250, 255);;
+    border: 0.06rem solid orangered;
 }
 
 .forms textarea:focus{
-    border: 0.06rem solid rgb(250, 250, 255);;
+    border: 0.06rem solid orangered;
 }
 .btn-forms{
     all: unset;
@@ -53,5 +56,15 @@ select{
 
 .btn-forms:hover{
     background-color: rgba(255, 166, 0, 0.574);
+}
+.forms span{
+    width: 100%;
+
+    text-align: center;
+    
+    background-color: red;
+    color: white;
+    
+    border-radius: 1rem;
 }
 
